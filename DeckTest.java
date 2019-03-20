@@ -49,7 +49,7 @@ public class DeckTest
     public void toStringTest()
     {
         Deck d = new Deck();
-        String s = deck.toString();
+        String s = d.toString();
         assertTrue("Deck toString failed (-10 points)", s.length() > 0 );
     }
 }
